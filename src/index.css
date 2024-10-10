@@ -13,7 +13,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,11 +24,11 @@
 /* #root { */
   /* max-width: 1280px; */
   /* margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem;  , #root>div
   text-align: center; */
 /* } */
 
-html, body, #root, #root>div {
+html, body, #root  {
   height: 100%;
   width: 100%;
 }

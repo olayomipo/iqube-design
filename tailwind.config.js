@@ -23,6 +23,9 @@ export default {
         'custom-yellow-1': 'rgba(242, 201, 76, 0.2)',
         'custom-yellow-2': 'rgba(242, 153, 74, 0.2)',
       },
+      breakpoints: {
+        'xs': '480px', // Very small screens
+      },
     },
   },
   plugins: [],
