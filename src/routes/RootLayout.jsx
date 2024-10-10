@@ -1,6 +1,6 @@
 
 import { Outlet } from 'react-router-dom';
-import MainBackground from '../components/mainBackground';
+import MainBackground from '../components/MainBackground';
 
 function RootLayout(){
     return(
