@@ -10,7 +10,7 @@ function BreadCrumb() {
   const base = '/purchase'
 
   return (
-    <div className="ml-[-1rem] w-[80%] lg:w-[710px] xl:w-[710px]  ">
+    <div className="ml-[-1rem] w-[100%] ">
       <ul className="border border-transparent text-xl text-[#bdbdbd] cursor-pointer text-left items-start">
         <div className="font-bold xs:text-[10px] sm:text-[12px] md:text-[18px] text-[24px] leading-[34px] flex justify-between">
           <Link to={base} className={`hover:text-[#F2994A] p-4 ${location.pathname === base && 'text-[#F2994A]' } `}>

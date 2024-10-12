@@ -52,8 +52,8 @@ import { Outlet } from "react-router-dom";
 
 function PurchaseForm(){
     return(
-        <div className="h-screen min-h-screen flex items-center justify-center bg-transparent">
-            <div className="flex-col gap-8">
+        <div className="h-screen min-h-screen flex items-center justify-center bg-transparent ">
+            <div className="flex-col gap-8 p-12">
                 <h1 className="lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl text-3xl text-heading-2 font-bold text-left text-[#4E598C] leading-tight">
                         Complete your Purchase
                 </h1>         

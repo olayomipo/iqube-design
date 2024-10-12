@@ -9,7 +9,7 @@ function PurchaseComplete(){
             {/* <a href="#" class="bg-transperent inline-block ">
               <img src="src/assets/Vector.png" alt="Icon" class="w-[12px] h-[8.5px] rounded-full hover:shadow-md transition duration-300 ease-in-out" />
             </a> */}
-            <div className="w-[80%] h-[40%] md:w-[760px] md:h-[480px] sm:h-[480px] sm:w-[800px] bg-white shadow-custom rounded-lg">
+            <div className="p-12 py-24 bg-white shadow-custom rounded-lg w-[801px]">
               <div className="flex items-center justify-center flex-col h-full w-full">
                 <div className="">
                   <div className="mt-0 w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] md:w-[72px] md:h-[72px] lg:w-[84px] lg:h-[84px] bg-transparent flex rounded-full shadow-custom overflow-hidden items-center justify-center">
