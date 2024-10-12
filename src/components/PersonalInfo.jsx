@@ -3,7 +3,7 @@ import React from 'react'
 function PersonalInfo() {
   return (
     <div className="flex items-center justify-center">
-    <div className="mx-auto w-full max-w-[550px]">
+    <div className="mx-auto w-full max-w-full">
         <form action="" method="POST">
         <div className="mb-5">
             <label
@@ -16,8 +16,8 @@ function PersonalInfo() {
             type="text"
             name="name"
             id="name"
-            placeholder="Full Name"
-            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            placeholder="Opara Linus Ahmed"
+            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             />
         </div>
         <div className="mb-5">
@@ -31,8 +31,8 @@ function PersonalInfo() {
             type="email"
             name="email"
             id="email"
-            placeholder="example@domain.com"
-            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            placeholder="OparaLinusAhmed@devmail.com"
+            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             />
         </div>
         <div className="mb-5">
@@ -47,7 +47,7 @@ function PersonalInfo() {
             name="address1"
             id="address1"
             placeholder="Address 1"
-            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             />
         </div>        
         <div className="mb-5">
@@ -62,7 +62,7 @@ function PersonalInfo() {
             name="address2"
             id="address2"
             placeholder="Address 2"
-            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             />
         </div>
         <div className="mb-5">
@@ -77,7 +77,7 @@ function PersonalInfo() {
             name="message"
             id="message"
             placeholder="Type your message"
-            className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             ></textarea>
         </div>
         

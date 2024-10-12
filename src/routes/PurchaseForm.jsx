@@ -52,9 +52,9 @@ import { Outlet } from "react-router-dom";
 
 function PurchaseForm(){
     return(
-        <div className="h-screen min-h-screen flex items-center justify-center bg-transparent ">
-            <div className="flex-col gap-8 p-12">
-                <h1 className="lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl text-3xl text-heading-2 font-bold text-left text-[#4E598C] leading-tight">
+        <div className="h-screen min-h-screen flex items-center justify-center bg-transparent p-3  overflow-scroll">
+            <div className="container overflow-auto md:overflow-scroll h-[100vh] px-10 mx-auto flex flex-col gap-8 p-2 md:p-3 lg:p-4 sm:p-12 xs:p-10">
+                <h1 className="lg:text-4xl md:text-4xl sm:text-3xl xs:text-2xl text-xl text-heading-2 font-bold text-left text-[#4E598C] lg:leading-tight">
                         Complete your Purchase
                 </h1>         
                 <BreadCrumb />
