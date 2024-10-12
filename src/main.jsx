@@ -6,6 +6,12 @@ import RootLayout from './routes/RootLayout';
 import PurchaseComplete from './routes/PurchaseCompleted';
 import PurchaseForm from './routes/PurchaseForm';
 
+
+import PersonalInfo from './components/PersonalInfo';
+import BillingInfo from './components/BillingInfo';
+import ConfirmPayment from './components/ConfirmPayment';
+
+
 import './index.css';
 
 const router = createBrowserRouter([
@@ -14,7 +20,15 @@ const router = createBrowserRouter([
     children: [
 
       {path: '/complete', element: <PurchaseComplete/>},
-      {path: '/purchase', element: <PurchaseForm/>},
+      {path: '/purchase',
+         element: <PurchaseForm/>,
+         children: [
+          {path: '', element: <PersonalInfo/>},
+          {path: 'billings', element: <BillingInfo/>},
+          {path: 'confirm', element: <ConfirmPayment/>},
+
+         ]
+      },
       
     ],
   },
