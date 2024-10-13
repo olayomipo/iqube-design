@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function PersonalInfo() {
   return (
@@ -95,16 +96,16 @@ function PersonalInfo() {
                 </div>
             </div>
         <div>
-        <div className="grid md:grid-cols-3 grid-cols-3 w-2/3 md:gap-6 mb-5">
+        <div className="grid md:grid-cols-3 grid-cols-3 md:w-2/3 md:gap-6 mb-8">
             <button
-            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-18 text-base font-semibold text-white outline-none"
+            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
             >
-              Next
+              <Link to='..'> Next </Link>
             </button>
             <button
-            className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
+            className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 md:px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
             >
-              Cancel Payment
+              <Link to='..'> Cancel Payment </Link>
             </button>
         </div>
         </div>

@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 function BillingInfo() {
   return (
     <div className="flex items-center justify-center">
     <div className="mx-auto w-full max-w-full">
         <form action="" method="POST">
-        <div className="mb-5">
+        <div className="mb-10">
             <label
             htmlFor="nameOnCard"
             className="mb-3 block text-base font-medium text-[#07074D]"
@@ -22,7 +22,7 @@ function BillingInfo() {
             required
             />
         </div>
-        <div className="mb-5">
+        <div className="mb-10">
             <label
             htmlFor="cardType"
             className="mb-3 block text-base font-medium text-[#07074D]"
@@ -40,8 +40,8 @@ function BillingInfo() {
             </select>
         </div>
 
-        <div className="grid md:grid-cols-5 md:gap-6 mb-5">
-                <div className="relative z-0 w-full mb-5 group col-span-3">
+        <div className="grid md:grid-cols-5 md:gap-6 mb-10">
+                <div className="relative z-0 w-full mb-10 group col-span-3">
                     <label htmlFor="card_details" 
                       className="mb-3 block text-base font-medium text-[#07074D]">
                       Card details <span className='text-[#EB5757]'>*</span>
@@ -54,7 +54,7 @@ function BillingInfo() {
                     pattern="^4[0-9]{12}(?:[0-9]{3})?$"
                     required />
                 </div>
-                <div className="relative z-0 w-full mb-5 group col-span-1">
+                <div className="relative z-0 w-full mb-10 group col-span-1">
                   <label htmlFor="exdate" 
                   class="mb-3 block text-base font-medium text-[#07074D]">
                       Expiry date <span className='text-[#EB5757]'>*</span>
@@ -65,7 +65,7 @@ function BillingInfo() {
                     className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md" 
                     placeholder="11 / 25" required />
                 </div>
-                <div className="relative z-0 w-full mb-5 group col-span-1">
+                <div className="relative z-0 w-full mb-10 group col-span-1">
                   <label htmlFor="cvv" 
                   class="mb-3 block text-base font-medium text-[#07074D]">
                       CVV <span className='text-[#EB5757]'>*</span>
@@ -78,16 +78,16 @@ function BillingInfo() {
                 </div>
             </div>
         <div>
-        <div className="grid md:grid-cols-3 grid-cols-3 w-2/3 md:gap-6 mb-5">
+        <div className="grid md:grid-cols-3 grid-cols-3 md:w-2/3 md:gap-6 mb-10">
             <button
-            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-18 text-base font-semibold text-white outline-none"
+            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
             >
-              Next
+              <Link to='..'> Next </Link>
             </button>
             <button
-            className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
+            className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 md:px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
             >
-              Cancel Payment
+              <Link to='..'> Cancel Payment </Link>
             </button>
         </div>
         </div>
