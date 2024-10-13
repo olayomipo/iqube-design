@@ -25,8 +25,9 @@ function PersonalInfo() {
             htmlFor="email"
             className="mb-3 block text-base font-medium text-[#07074D]"
             >
-            Email Address
+            Email Address <span className='text-red-500'>*</span>
             </label>
+            <p className='font-normal p-4 ml-[-1rem] text-[16px] text-[#817E9E'>The purchase reciept would be sent to this address</p>
             <input
             type="email"
             name="email"
@@ -40,8 +41,9 @@ function PersonalInfo() {
             htmlFor="address1"
             className="mb-3 block text-base font-medium text-[#07074D]"
             >
-            Address1
+            Address 1
             </label>
+
             <input
             type="text"
             name="address1"
@@ -55,7 +57,7 @@ function PersonalInfo() {
             htmlFor="address2"
             className="mb-3 block text-base font-medium text-[#07074D]"
             >
-            Address2
+            Address 2
             </label>
             <input
             type="text"
@@ -65,28 +67,46 @@ function PersonalInfo() {
             className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
             />
         </div>
-        <div className="mb-5">
-            <label
-            htmlFor="message"
-            className="mb-3 block text-base font-medium text-[#07074D]"
-            >
-            Message
-            </label>
-            <textarea
-            rows="4"
-            name="message"
-            id="message"
-            placeholder="Type your message"
-            className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md"
-            ></textarea>
-        </div>
-        
+        <div className="grid md:grid-cols-3 md:gap-6 mb-5">
+                <div className="relative z-0 w-full mb-5 group col-span-2">
+                    <label htmlFor="local_government" 
+                      className="mb-3 block text-base font-medium text-[#07074D]">
+                        Local Government
+                    </label>
+                    <input 
+                    type="text" 
+                    name="local_government" id="local_government" 
+                    className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md" 
+                    placeholder="Surulere" required />
+                </div>
+                <div className="relative z-0 w-full mb-5 group">
+                  <label htmlFor="states" 
+                  class="mb-3 block text-base font-medium text-[#07074D]">
+                    State
+                  </label>
+                  <select id="states" 
+                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md">
+                    <option selected>Lagos</option>
+                    <option value="AB"> Abuja </option>
+                    <option value="OG"> Ogun </option>
+                    <option value="IB"> Ibadan </option>
+                    <option value="PH">Port Harcourt</option>
+                  </select>
+                </div>
+            </div>
         <div>
+        <div className="grid md:grid-cols-3 grid-cols-3 w-2/3 md:gap-6 mb-5">
             <button
-            className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-24 text-base font-semibold text-white outline-none"
             >
-            Submit
+              Next
             </button>
+            <button
+            className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
+            >
+              Cancel Payment
+            </button>
+        </div>
         </div>
         </form>
     </div>
