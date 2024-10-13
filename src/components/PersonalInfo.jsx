@@ -25,7 +25,7 @@ function PersonalInfo() {
             htmlFor="email"
             className="mb-3 block text-base font-medium text-[#07074D]"
             >
-            Email Address <span className='text-red-500'>*</span>
+            Email Address <span className='text-[#EB5757]'>*</span>
             </label>
             <p className='font-normal p-4 ml-[-1rem] text-[16px] text-[#817E9E'>The purchase reciept would be sent to this address</p>
             <input
@@ -97,7 +97,7 @@ function PersonalInfo() {
         <div>
         <div className="grid md:grid-cols-3 grid-cols-3 w-2/3 md:gap-6 mb-5">
             <button
-            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-24 text-base font-semibold text-white outline-none"
+            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-18 text-base font-semibold text-white outline-none"
             >
               Next
             </button>
