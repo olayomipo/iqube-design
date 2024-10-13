@@ -80,7 +80,7 @@ function BillingInfo() {
         <div>
         <div className="grid md:grid-cols-3 grid-cols-3 w-2/3 md:gap-6 mb-5">
             <button
-            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-24 text-base font-semibold text-white outline-none"
+            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 px-12 lg:px-18 text-base font-semibold text-white outline-none"
             >
               Next
             </button>
