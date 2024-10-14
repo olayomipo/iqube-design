@@ -71,8 +71,8 @@ function ConfirmPayment() {
           <div className="space-y-4 px-4 bg-[#2F80ED] rounded-t-md">
             <div className="space-y-2 text-white mb-5 ">
                 <dl className="flex items-center justify-between gap-4 ">
-                    <dt className=" p-2">Item Name</dt>
-                      <dd className="flex p-2 ">
+                    <dt className="p-2">Item Name</dt>
+                      <dd className="flex p-2 " style={{ marginTop: '10px'}}>
                         <img src={Naira} alt="N" className="h-8 self-center rounded-full mt-[1px]" />
                         <p className="mr-[4rem] ">Price</p>
                       </dd>  
@@ -121,7 +121,8 @@ function ConfirmPayment() {
                 <button
                 className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
                 >
-                  Pay
+                  
+                  <Link to='/complete'> Pay </Link>
                 </button>
                 <button
                 className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 md:px-12 lg:px-18 text-base font-semibold outline-none col-span-2"

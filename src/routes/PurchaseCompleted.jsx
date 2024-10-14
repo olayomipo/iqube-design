@@ -9,7 +9,7 @@ function PurchaseComplete(){
             {/* <a href="#" class="bg-transperent inline-block ">
               <img src="src/assets/Vector.png" alt="Icon" class="w-[12px] h-[8.5px] rounded-full hover:shadow-md transition duration-300 ease-in-out" />
             </a> */}
-            <div className="p-12 py-24 bg-white shadow-custom rounded-lg w-[801px]">
+            <div className="p-12 py-24 bg-white shadow-custom rounded-lg max-w-[801px] w-[80%]">
               <div className="flex items-center justify-center flex-col h-full w-full">
                 <div className="">
                   <div className="mt-0 w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] md:w-[72px] md:h-[72px] lg:w-[84px] lg:h-[84px] bg-transparent flex rounded-full shadow-custom overflow-hidden items-center justify-center">
@@ -22,7 +22,7 @@ function PurchaseComplete(){
                   <h1 className="lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl text-3xl text-heading-2 font-bold text-left text-[#4E598C] leading-tight">
                     Purchase Completed
                   </h1>
-                  <div className="max-w-[404px] max-h-[60px] text-[#4F4F4F] text-[12px] md:text-[18px] sm:text-[14px] lg:text-[20px] leading-[30px] xs:text-[12px]">
+                  <div className="max-w-[404px] max-h-[60px] text-[#4F4F4F] text-[16px] md:text-[18px] sm:text-[14px] lg:text-[20px] leading-[30px] xs:text-[12px]">
                     <p className="font-normal text-left">
                       Please check your email for details concerning this transaction
                     </p>

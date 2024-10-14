@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './routes/RootLayout';
 import PurchaseComplete from './routes/PurchaseCompleted';
 import PurchaseForm from './routes/PurchaseForm';
-
+import LinkBox from './routes/LinkBox';
 
 import PersonalInfo from './components/PersonalInfo';
 import BillingInfo from './components/BillingInfo';
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   {path: '/', 
     element: < RootLayout />,
     children: [
-
+      {path: '', element: <LinkBox/>},
       {path: '/complete', element: <PurchaseComplete/>},
       {path: '/purchase',
          element: <PurchaseForm/>,
