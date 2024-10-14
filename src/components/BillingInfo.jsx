@@ -82,7 +82,7 @@ function BillingInfo() {
             <button
             className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
             >
-              <Link to='..'> Next </Link>
+              Next
             </button>
             <button
             className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 md:px-12 lg:px-18 text-base font-semibold outline-none col-span-2"

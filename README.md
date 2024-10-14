@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 Following design from
 
 https://www.figma.com/design/iDtrk4LhOr2VejigGqnRds/iQube-TT-Portal?node-id=944-758&node-type=frame&t=szFapPLlsLbzeyPq-0
+
+Failed to load URL https://d5ecgvacntsb3.cloudfront.net/test-ads/dynamic-house-ad/dynamic-house-ad.html?cc=NL&clicktag=https%3A%2F%2Fwww.spotify.com%2Fpremium%
+
+ad service

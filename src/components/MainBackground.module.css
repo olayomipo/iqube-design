@@ -7,9 +7,9 @@
 .main{
   height: 100vh;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-image: url('src/assets/Vector 55.png');
+  background-size: cover !important;
+  background-position: center !important;
+  background-image: url('src/assets/Vector 55.png') !important;
 }
 
 /* .bg12 {

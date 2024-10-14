@@ -23,6 +23,14 @@ function BreadCrumb() {
             Confirm Payment
           </Link>          
         </div>
+        <div className="flex h-px w-full flex-none flex-col items-center gap-2 bg-[#817E9E] " />
+
+        <div className="grid md:grid-cols-3 grid-cols-3 bg-transparent">
+          <div className={`mt-[-6px] flex h-[13px] w-full rounded-full flex-none flex-col items-center gap-2 ${location.pathname === base && 'bg-[#F2994A]' }`} />
+          <div className={`mt-[-6px] flex h-[13px] w-full rounded-full flex-none flex-col items-center gap-2 ${location.pathname === base+'/billings' && 'bg-[#F2994A]' }`} />
+          <div className={`mt-[-6px] flex h-[13px] w-full rounded-full flex-none flex-col items-center gap-2 ${location.pathname === base+'/confirm' && 'bg-[#F2994A]' }`} />
+        </div>
+
       </ul>
     </div>
   );

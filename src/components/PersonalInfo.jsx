@@ -97,11 +97,12 @@ function PersonalInfo() {
             </div>
         <div>
         <div className="grid md:grid-cols-3 grid-cols-3 md:w-2/3 md:gap-6 mb-8">
+            
             <button
-            className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
-            >
-              <Link to='..'> Next </Link>
-            </button>
+              className="hover:shadow-form rounded-md bg-gradient-to-b from-[#F2C94C] to-[#F2994A] py-2 md:px-12 lg:px-18 text-base font-semibold text-white outline-none"
+              >
+                Next 
+              </button>
             <button
             className="hover:shadow-form rounded-md bg-transparent text-[#4E598C] py-2 md:px-12 lg:px-18 text-base font-semibold outline-none col-span-2"
             >

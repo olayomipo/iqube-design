@@ -22,6 +22,7 @@ const router = createBrowserRouter([
       {path: '/complete', element: <PurchaseComplete/>},
       {path: '/purchase',
          element: <PurchaseForm/>,
+        //  timestamp: new Date().toString(),
          children: [
           {path: '', element: <PersonalInfo/>},
           {path: 'billings', element: <BillingInfo/>},
