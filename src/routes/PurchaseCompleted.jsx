@@ -1,5 +1,6 @@
 
 import { Link } from 'react-router-dom';
+import Check from '../assets/noun_tick_953515 2.png'
 
 function PurchaseComplete(){
     return (
@@ -14,7 +15,7 @@ function PurchaseComplete(){
                 <div className="">
                   <div className="mt-0 w-[50px] h-[50px] sm:w-[60px] sm:h-[60px] md:w-[72px] md:h-[72px] lg:w-[84px] lg:h-[84px] bg-transparent flex rounded-full shadow-custom overflow-hidden items-center justify-center">
                     <div className="w-[45px] h-[45px] sm:w-[30px] sm:h-[30px] md:w-[52px] md:h-[52px] lg:w-[72px] lg:h-[72px]">
-                      <img src="src/assets/noun_tick_953515 2.png" alt="noun_tick" className="w-full h-full object-cover" />
+                      <img src={Check} alt="noun_tick" className="w-full h-full object-cover" />
                     </div>
                   </div>
                 </div>

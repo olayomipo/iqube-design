@@ -9,7 +9,9 @@
   width: 100%;
   background-size: cover !important;
   background-position: center !important;
-  background-image: url('src/assets/Vector 55.png') !important;
+  /* background-image: url('src/assets/Vector 55.png') !important; */
+
+  background-image: url('https://raw.githubusercontent.com/olayomipo/iqube-design/refs/heads/main/src/assets/Vector%2055.png');
 }
 
 /* .bg12 {
