@@ -18,6 +18,9 @@ function LinkBox() {
             <h1 className="hover:text-[#F2C94C] p-4 cursor-pointer">
                 <Link to='/complete'> Complete </Link>
             </h1>
+            <h1 className="hover:text-red-500 text-blue-500 p-4 cursor-pointer mt-2">
+                <Link to='https://github.com/olayomipo/iqube-design'> Github </Link>
+            </h1>
         </div>
 
     </div>

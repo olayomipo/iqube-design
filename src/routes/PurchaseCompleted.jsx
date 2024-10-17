@@ -7,8 +7,8 @@ function PurchaseComplete(){
         <div className="h-screen min-h-screen flex items-center justify-center ">
                     {/* Media queries should be looked into , Room for improvement */}
                     {/* A href with clickable icon on the right top corner should be finished */}
-            {/* <a href="#" class="bg-transperent inline-block ">
-              <img src="src/assets/Vector.png" alt="Icon" class="w-[12px] h-[8.5px] rounded-full hover:shadow-md transition duration-300 ease-in-out" />
+            {/* <a href="#" className="bg-transperent inline-block ">
+              <img src="src/assets/Vector.png" alt="Icon" className="w-[12px] h-[8.5px] rounded-full hover:shadow-md transition duration-300 ease-in-out" />
             </a> */}
             <div className="p-12 py-24 bg-white shadow-custom rounded-lg max-w-[801px] w-[80%]">
               <div className="flex items-center justify-center flex-col h-full w-full">
@@ -28,7 +28,7 @@ function PurchaseComplete(){
                       Please check your email for details concerning this transaction
                     </p>
                   </div>  
-                  <p className=" text-base font-normal text-[#F2C94C] underline  mt-2">
+                  <p className=" text-base font-normal text-[#F2C94C] underline mt-4 lg:mt-2 md:mt-8 sm:mt-10">
                     <Link to='..'> Return Home  </Link>
                   </p> 
                 </div>

@@ -56,7 +56,7 @@ function BillingInfo() {
                 </div>
                 <div className="relative z-0 w-full mb-10 group col-span-1">
                   <label htmlFor="exdate" 
-                  class="mb-3 block text-base font-medium text-[#07074D]">
+                  className="mb-3 block text-base font-medium text-[#07074D]">
                       Expiry date <span className='text-[#EB5757]'>*</span>
                       </label>
                   <input 
@@ -67,7 +67,7 @@ function BillingInfo() {
                 </div>
                 <div className="relative z-0 w-full mb-10 group col-span-1">
                   <label htmlFor="cvv" 
-                  class="mb-3 block text-base font-medium text-[#07074D]">
+                  className="mb-3 block text-base font-medium text-[#07074D]">
                       CVV <span className='text-[#EB5757]'>*</span>
                     </label>
                   <input 

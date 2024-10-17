@@ -33,7 +33,12 @@ const router = createBrowserRouter([
       
     ],
   },
-
+  {path: '*', 
+    element: < RootLayout />,
+    children: [
+      {path: '*', element: <LinkBox/>},
+  ],
+}
 ]);
 
 createRoot(document.getElementById('root')).render(

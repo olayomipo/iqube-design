@@ -82,11 +82,11 @@ function PersonalInfo() {
                 </div>
                 <div className="relative z-0 w-full mb-5 group">
                   <label htmlFor="states" 
-                  class="mb-3 block text-base font-medium text-[#07074D]">
+                  className="mb-3 block text-base font-medium text-[#07074D]">
                     State
                   </label>
                   <select id="states" 
-                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md">
+                  className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#4F4F4F] outline-none focus:border-[#4E598C] focus:shadow-md">
                     <option selected>Lagos</option>
                     <option value="AB"> Abuja </option>
                     <option value="OG"> Ogun </option>
