@@ -1,6 +1,6 @@
 Hosted at 
 
-Iqube design (hilarious-lollipop-29c84e.netlify.app)
+https://www.hilarious-lollipop-29c84e.netlify.app
 
 Following design from
 
