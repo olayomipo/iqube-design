@@ -1,6 +1,6 @@
-Hosted at 
+Hosted at
 
-https://www.hilarious-lollipop-29c84e.netlify.app
+hilarious-lollipop-29c84e.netlify.app
 
 Following design from
 
