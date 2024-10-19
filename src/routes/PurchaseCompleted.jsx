@@ -28,7 +28,7 @@ function PurchaseComplete(){
                       Please check your email for details concerning this transaction
                     </p>
                   </div>  
-                  <p className=" text-base font-normal text-[#F2C94C] underline mt-4 lg:mt-2 md:mt-8 sm:mt-10">
+                  <p className=" text-base font-normal text-[#F2C94C] underline mt-8 lg:mt-2 md:mt-8 sm:mt-10">
                     <Link to='..'> Return Home  </Link>
                   </p> 
                 </div>
